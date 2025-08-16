@@ -8,11 +8,15 @@ public class SingletonCurrentGovernment implements CurrentGovernment {
     System.out.println("constructor");
   }
 
-  public static SingletonCurrentGovernment instance;
+  private static volatile SingletonCurrentGovernment instance;
 
-  public static synchronized SingletonCurrentGovernment getInstance(){
+  public static SingletonCurrentGovernment getInstance(){
     if(instance == null) {
-      instance = new SingletonCurrentGovernment();
+      synchronized (SingletonCurrentGovernment.class) {
+        if(instance == null) {
+          instance = new SingletonCurrentGovernment();
+        }
+      }
     }
 
     return instance;
