@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.chainOfResponsibilitiesDesignPattern.ChainOfResponsibilitiesDesignPatternDemo;
+import org.example.commandDesignPattern.CommandDesignPatternDemo;
 import org.example.prototype.PrototypeDesignPatternDemo;
 import org.example.singeltonDesignPattern.SingletonCurrentGovernment;
 import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
@@ -9,9 +10,11 @@ import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
   public static void main(String[] args) {
+    /*
     SingletonDesignPatternDemo.show();
     PrototypeDesignPatternDemo.show();
     ChainOfResponsibilitiesDesignPatternDemo.show();
-
+    */
+    CommandDesignPatternDemo.show();
   }
 }
