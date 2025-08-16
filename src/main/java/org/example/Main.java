@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.chainOfResponsibilitiesDesignPattern.ChainOfResponsibilitiesDesignPatternDemo;
+import org.example.prototype.PrototypeDesignPatternDemo;
 import org.example.singeltonDesignPattern.SingletonCurrentGovernment;
 import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
 
@@ -8,5 +10,8 @@ import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
 public class Main {
   public static void main(String[] args) {
     SingletonDesignPatternDemo.show();
+    PrototypeDesignPatternDemo.show();
+    ChainOfResponsibilitiesDesignPatternDemo.show();
+
   }
 }
