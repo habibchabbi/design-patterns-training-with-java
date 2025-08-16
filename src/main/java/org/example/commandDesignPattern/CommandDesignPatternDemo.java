@@ -1,5 +1,8 @@
 package org.example.commandDesignPattern;
 
+import org.example.commandDesignPattern.differentRooms.*;
+
+
 public class CommandDesignPatternDemo {
   public static void show() {
     System.out.println("commandDesignPattern");
