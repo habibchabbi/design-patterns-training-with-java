@@ -3,6 +3,7 @@ package org.example;
 import org.example.TemplateMethodDesignPattern.TemplateMethodDesignPatternDemo;
 import org.example.chainOfResponsibilitiesDesignPattern.ChainOfResponsibilitiesDesignPatternDemo;
 import org.example.commandDesignPattern.CommandDesignPatternDemo;
+import org.example.mediatorDesignPattern.MediatorDesignPatternDemo;
 import org.example.prototype.PrototypeDesignPatternDemo;
 import org.example.singeltonDesignPattern.SingletonCurrentGovernment;
 import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
@@ -18,5 +19,6 @@ public class Main {
     CommandDesignPatternDemo.show();
     */
     TemplateMethodDesignPatternDemo.show();
+    MediatorDesignPatternDemo.show();
   }
 }
