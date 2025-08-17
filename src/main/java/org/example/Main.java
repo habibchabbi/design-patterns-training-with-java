@@ -4,6 +4,7 @@ import org.example.TemplateMethodDesignPattern.TemplateMethodDesignPatternDemo;
 import org.example.chainOfResponsibilitiesDesignPattern.ChainOfResponsibilitiesDesignPatternDemo;
 import org.example.commandDesignPattern.CommandDesignPatternDemo;
 import org.example.mediatorDesignPattern.MediatorDesignPatternDemo;
+import org.example.momentoDesignPattern.MomentoDesignPatternDemo;
 import org.example.prototype.PrototypeDesignPatternDemo;
 import org.example.singeltonDesignPattern.SingletonCurrentGovernment;
 import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
@@ -20,5 +21,6 @@ public class Main {
     */
     TemplateMethodDesignPatternDemo.show();
     MediatorDesignPatternDemo.show();
+    MomentoDesignPatternDemo.show();
   }
 }
