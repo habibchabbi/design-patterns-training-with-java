@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.TemplateMethodDesignPattern.TemplateMethodDesignPatternDemo;
 import org.example.chainOfResponsibilitiesDesignPattern.ChainOfResponsibilitiesDesignPatternDemo;
 import org.example.commandDesignPattern.CommandDesignPatternDemo;
 import org.example.prototype.PrototypeDesignPatternDemo;
@@ -14,7 +15,8 @@ public class Main {
     SingletonDesignPatternDemo.show();
     PrototypeDesignPatternDemo.show();
     ChainOfResponsibilitiesDesignPatternDemo.show();
-    */
     CommandDesignPatternDemo.show();
+    */
+    TemplateMethodDesignPatternDemo.show();
   }
 }
