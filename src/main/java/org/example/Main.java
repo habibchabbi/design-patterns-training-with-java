@@ -9,6 +9,7 @@ import org.example.observerDesignPattern.ObserverDesignPatternDemo;
 import org.example.prototype.PrototypeDesignPatternDemo;
 import org.example.singeltonDesignPattern.SingletonCurrentGovernment;
 import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
+import org.example.stateDesignPattern.StateDesignPatternDemo;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -24,5 +25,6 @@ public class Main {
     MomentoDesignPatternDemo.show();
     */
     ObserverDesignPatternDemo.show();
+    StateDesignPatternDemo.show();
   }
 }

@@ -10,6 +10,7 @@ public class MobileAppListener implements EventListener {
 
   @Override
   public void update() {
+    System.out.println("App listner update " + userName);
 
   }
 }
