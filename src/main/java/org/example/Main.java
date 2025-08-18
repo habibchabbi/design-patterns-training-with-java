@@ -10,21 +10,23 @@ import org.example.prototype.PrototypeDesignPatternDemo;
 import org.example.singeltonDesignPattern.SingletonCurrentGovernment;
 import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
 import org.example.stateDesignPattern.StateDesignPatternDemo;
+import org.example.strategyDesignPattern.StrategyDesignPatternDemo;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
   public static void main(String[] args) {
     /*
-    SingletonDesignPatternDemo.show();
-    PrototypeDesignPatternDemo.show();
-    ChainOfResponsibilitiesDesignPatternDemo.show();
-    CommandDesignPatternDemo.show();
-    TemplateMethodDesignPatternDemo.show();
-    MediatorDesignPatternDemo.show();
-    MomentoDesignPatternDemo.show();
+      SingletonDesignPatternDemo.show();
+      PrototypeDesignPatternDemo.show();
+      ChainOfResponsibilitiesDesignPatternDemo.show();
+      CommandDesignPatternDemo.show();
+      TemplateMethodDesignPatternDemo.show();
+      MediatorDesignPatternDemo.show();
+      MomentoDesignPatternDemo.show();
+      ObserverDesignPatternDemo.show();
+      StateDesignPatternDemo.show();
     */
-    ObserverDesignPatternDemo.show();
-    StateDesignPatternDemo.show();
+    StrategyDesignPatternDemo.show();
   }
 }
