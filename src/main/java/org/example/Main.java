@@ -5,6 +5,7 @@ import org.example.chainOfResponsibilitiesDesignPattern.ChainOfResponsibilitiesD
 import org.example.commandDesignPattern.CommandDesignPatternDemo;
 import org.example.mediatorDesignPattern.MediatorDesignPatternDemo;
 import org.example.momentoDesignPattern.MomentoDesignPatternDemo;
+import org.example.observerDesignPattern.ObserverDesignPatternDemo;
 import org.example.prototype.PrototypeDesignPatternDemo;
 import org.example.singeltonDesignPattern.SingletonCurrentGovernment;
 import org.example.singeltonDesignPattern.SingletonDesignPatternDemo;
@@ -18,9 +19,10 @@ public class Main {
     PrototypeDesignPatternDemo.show();
     ChainOfResponsibilitiesDesignPatternDemo.show();
     CommandDesignPatternDemo.show();
-    */
     TemplateMethodDesignPatternDemo.show();
     MediatorDesignPatternDemo.show();
     MomentoDesignPatternDemo.show();
+    */
+    ObserverDesignPatternDemo.show();
   }
 }
