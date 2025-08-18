@@ -18,4 +18,8 @@ public class NotificationService {
   public void unsubscribe(EmailMsgListener listener) {
     customers.remove(listener);
   }
+
+  public void notify1() {
+    customers.forEach(EmailMsgListener::update);
+  }
 }

@@ -11,7 +11,7 @@ public class ObserverDesignPatternDemo {
     store.getNotificationService().subscribe(emailMsgListener2);
     EmailMsgListener emailMsgListener3 =       new EmailMsgListener("mail 3");
     store.getNotificationService().subscribe(emailMsgListener3);
-
+store.getNotificationService().notify1();
     System.out.println("Observer Design Pattern Demo");
   }
 }
